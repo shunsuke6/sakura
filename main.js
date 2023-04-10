@@ -1,4 +1,4 @@
-import Petal from "./petal.js";
+import Petal from "./js/petal.js";
 
 const createScene = () => {
   const scene = new THREE.Scene();
@@ -48,7 +48,7 @@ const init = async () => {
   const numPetals = 1000;
   const petals = [];
   const petalTexture = await new Promise((resolve) => {
-    new THREE.TextureLoader().load("../textures/sakura.png", resolve);
+    new THREE.TextureLoader().load("./textures/sakura.png", resolve);
   });
 
   for (let i = 0; i < numPetals; i++) {
