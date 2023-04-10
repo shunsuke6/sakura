@@ -1,4 +1,4 @@
-# sakura
+# sakura🌸
 
 The title is spelled "sakura". This is because it is intended for Japanese ornamental cherry trees.
 
